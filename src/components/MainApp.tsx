@@ -342,7 +342,7 @@ export const MainApp: React.FC<{ onLogout: () => void; onOpenSurpriseLetter?: ()
         <div className="brand-logo flex items-center gap-3">
           <i className="fa-solid fa-crown text-3xl sm:text-4xl text-[#ff4b72]"></i>
           <div>
-            <h1 className="text-2xl sm:text-3xl text-[#ff4b72] font-black font-marhey">دلوعة أحمد 💖</h1>
+            <h1 className="text-2xl sm:text-3xl text-[#ff3366] font-black font-marhey">دلوعة أحمد (بوسي) 💖</h1>
             <small className="text-stone-500 font-bold text-xs sm:text-sm">برنامج بسملة الخاص</small>
           </div>
         </div>

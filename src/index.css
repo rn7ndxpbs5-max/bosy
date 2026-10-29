@@ -1,15 +1,15 @@
 @import "tailwindcss";
 
 :root {
-  --primary: #ff4b72;
-  --primary-hover: #ff2a55;
-  --secondary: #ff85a2;
-  --accent: #ffd1dc;
-  --bg-gradient: linear-gradient(135deg, #ffe6eb 0%, #ffd3dd 50%, #ffb3c6 100%);
-  --glass-bg: rgba(255, 255, 255, 0.88);
-  --glass-border: rgba(255, 255, 255, 0.7);
+  --primary: #ff3366;
+  --primary-hover: #e02452;
+  --secondary: #ff7597;
+  --accent: #ffe0e9;
+  --bg-gradient: linear-gradient(135deg, #fff0f3 0%, #ffe3ea 50%, #ffccd8 100%);
+  --glass-bg: rgba(255, 255, 255, 0.95);
+  --glass-border: rgba(255, 255, 255, 0.9);
   --text-color: #4a2c35;
-  --shadow: 0 8px 32px 0 rgba(255, 75, 114, 0.18);
+  --shadow: 0 10px 40px 0 rgba(255, 51, 102, 0.15);
 }
 
 body {
@@ -39,8 +39,8 @@ body {
 
 .heart-particle {
   position: absolute;
-  color: rgba(255, 75, 114, 0.35);
-  animation: floatUp 8s infinite linear;
+  color: rgba(255, 51, 102, 0.25);
+  animation: floatUp 9s infinite linear;
   bottom: -50px;
 }
 
@@ -50,8 +50,8 @@ body {
 }
 
 @keyframes pulseGlow {
-  0%, 100% { box-shadow: 0 8px 32px 0 rgba(255, 75, 114, 0.2); }
-  50% { box-shadow: 0 12px 40px 0 rgba(255, 75, 114, 0.4); }
+  0%, 100% { box-shadow: 0 10px 40px 0 rgba(255, 51, 102, 0.15); }
+  50% { box-shadow: 0 14px 45px 0 rgba(255, 51, 102, 0.35); }
 }
 
 .login-card-glow {
